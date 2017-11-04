@@ -1,0 +1,21 @@
+#include <stdio.h>
+  int main (){
+      int r1;
+      int r2;
+      int c1;
+      int c2;
+      int Cr;
+      int Cc;
+      int m1[100][100];
+      
+      Cr=0;
+      Cc=0;
+      
+      while(Cr<r1){
+        while(Cc<c1){
+            scanf("%6d",&m1[Cr][Cc]);
+            Cc=Cc+1;
+        }
+    Cr=Cr+1;
+      }
+  }
